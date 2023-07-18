@@ -1,0 +1,10 @@
+.mypy_cache
+.vscode
+__pycache__
+.pytest_cache
+dist
+site
+test.db
+Pipfile.lock
+env
+venv
