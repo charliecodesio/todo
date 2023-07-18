@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from todo.api.models import Item, User
-from todo.api.database import conn
+from models import Item, User
+from database import conn
 
 
 router = APIRouter()
