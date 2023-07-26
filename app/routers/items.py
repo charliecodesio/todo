@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Query
-from app.api.database import conn
-from app.api.models import Item
+from app.config.database import conn
+from app.config.models import Item
 
 router = APIRouter()
 
